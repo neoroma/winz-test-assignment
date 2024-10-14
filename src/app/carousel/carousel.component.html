@@ -1,0 +1,10 @@
+<div class="carousel" (touchstart)="onTouchStart($event)" (touchmove)="onTouchMove($event)" (touchend)="onTouchEnd()">
+  <div #carouselTrack>
+    @for(item of items; track item.id){
+      <div class="carousel-slide">
+        <app-carousel-item [card]="item" />
+      </div>
+    }
+  </div>
+</div>
+

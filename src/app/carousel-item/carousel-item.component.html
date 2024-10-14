@@ -1,0 +1,10 @@
+<article [style.background-image]="getBackgroundImageUrl()">
+  <div class="card">
+    <div class="image-container">
+      <img [src]="getImageUrl()" [alt]="card.id" />
+    </div>
+    <h1>{{card.title}}</h1>
+    <p [innerHTML]="card.content"></p>
+    <button>{{card.actionLabel}}</button>
+  </div>
+</article>

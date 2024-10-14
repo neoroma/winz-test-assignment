@@ -1,5 +1,9 @@
-# WinzTask
+# Winz Task Assignment
 
+## Deployed version from master
+[click here](https://random-test-assignment.netlify.app/), there will be a blank screen on desktop, this is on purpose so please use mobile device
+
+## Other generated stuff
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
 
 ## Development server

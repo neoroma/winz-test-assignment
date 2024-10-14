@@ -1,0 +1,14 @@
+.carousel {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+
+  div {
+    display: flex;
+    .carousel-slide {
+      flex: 0 0 100vw;
+      width: 100vw;
+      height: 100%;
+    }
+  }
+}
