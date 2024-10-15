@@ -50,25 +50,17 @@ export class CarouselComponent {
 
   next() {
     this.currentIndex = (this.currentIndex + 1) % this.items.length
-    this.updateDisplayItems()
     this.updateCarouselPosition()
   }
 
   prev() {
     this.currentIndex = (this.currentIndex - 1 + this.items.length) % this.items.length
-    this.updateDisplayItems()
     this.updateCarouselPosition()
   }
 
   goToIndex(index: number) {
     this.currentIndex = index
-    this.updateDisplayItems()
     this.updateCarouselPosition()
-  }
-
-  private updateDisplayItems() {
-    console.log(this.getPreviousIndex())
-    console.log(this.getNextIndex())
   }
 
   private getPreviousIndex(): number {
